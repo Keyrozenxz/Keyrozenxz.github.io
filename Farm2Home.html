@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ФермаДом - Свежие фермерские продукты</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="font-sans">
+    <!-- Header -->
+    <header class="bg-white shadow-lg sticky top-0 z-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between items-center py-4">
+          <div class="flex items-center space-x-2">
+            <div
+              class="w-10 h-10 bg-green-500 rounded-full flex items-center justify-center"
+            >
+              <span class="text-white text-xl font-bold">🌱</span>
+            </div>
+            <h1 class="text-2xl font-bold text-green-700">Farm2Home</h1>
+          </div>
+          <nav class="hidden md:flex space-x-8">
+            <a
+              href="#"
+              class="text-gray-700 hover:text-green-600 font-medium transition-colors"
+              >Главная</a
+            >
+            <a
+              href="#"
+              class="text-gray-700 hover:text-green-600 font-medium transition-colors"
+              >Продукты</a
+            >
+            <a
+              href="#"
+              class="text-gray-700 hover:text-green-600 font-medium transition-colors"
+              >О нас</a
+            >
+            <a
+              href="#"
+              class="text-gray-700 hover:text-green-600 font-medium transition-colors"
+              >Контакты</a
+            >
+          </nav>
+          <button
+            class="bg-green-500 hover:bg-green-600 text-white px-6 py-2 rounded-full font-medium transition-colors"
+          >
+            Заказать
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-gradient text-white py-20">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+          <div>
+            <h2 class="text-5xl font-bold mb-6 leading-tight">
+              Свежие продукты прямо с фермы
+            </h2>
+            <p class="text-xl mb-8 text-green-100">
+              Натуральные овощи, фрукты и молочные продукты без химии.
+              Доставляем свежесть прямо к вашему столу каждый день.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4">
+              <button
+                class="bg-white text-green-600 px-8 py-4 rounded-full font-bold text-lg hover:bg-green-50 transition-colors pulse-green"
+              >
+                Смотреть каталог
+              </button>
+              <button
+                class="border-2 border-white text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-white hover:text-green-600 transition-colors"
+              >
+                Узнать больше
+              </button>
+            </div>
+          </div>
+          <div class="relative">
+            <div
+              class="bg-white bg-opacity-20 rounded-3xl p-8 backdrop-blur-sm"
+            >
+              <div class="text-center">
+                <div class="text-8xl mb-4">🥕🍅🥬</div>
+                <h3 class="text-2xl font-bold mb-4">100% Органические</h3>
+                <p class="text-green-100">Выращено с любовью к природе</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-20 bg-gray-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl font-bold text-gray-800 mb-4">
+            Почему выбирают нас?
+          </h2>
+          <p class="text-xl text-gray-600">Качество, которому можно доверять</p>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-8">
+          <div class="bg-white rounded-2xl p-8 text-center card-hover">
+            <div
+              class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6"
+            >
+              <span class="text-3xl">🌿</span>
+            </div>
+            <h3 class="text-2xl font-bold text-gray-800 mb-4">Экологично</h3>
+            <p class="text-gray-600">
+              Без пестицидов и химических удобрений. Только натуральные методы
+              выращивания.
+            </p>
+          </div>
+
+          <div class="bg-white rounded-2xl p-8 text-center card-hover">
+            <div
+              class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6"
+            >
+              <span class="text-3xl">🚚</span>
+            </div>
+            <h3 class="text-2xl font-bold text-gray-800 mb-4">
+              Быстрая доставка
+            </h3>
+            <p class="text-gray-600">
+              Доставляем в день сбора урожая. Максимальная свежесть
+              гарантирована.
+            </p>
+          </div>
+
+          <div class="bg-white rounded-2xl p-8 text-center card-hover">
+            <div
+              class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6"
+            >
+              <span class="text-3xl">💰</span>
+            </div>
+            <h3 class="text-2xl font-bold text-gray-800 mb-4">Честные цены</h3>
+            <p class="text-gray-600">
+              Прямые поставки с фермы без посредников. Качество по доступной
+              цене.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Products Preview -->
+    <section class="py-20">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl font-bold text-gray-800 mb-4">Наши продукты</h2>
+          <p class="text-xl text-gray-600">Свежесть, которую вы почувствуете</p>
+        </div>
+
+        <div class="grid md:grid-cols-4 gap-6">
+          <div
+            class="bg-gradient-to-br from-green-400 to-green-600 rounded-2xl p-6 text-white text-center card-hover"
+          >
+            <div class="text-5xl mb-4">🥬</div>
+            <h3 class="text-xl font-bold mb-2">Зелень</h3>
+            <p class="text-green-100">Салаты, укроп, петрушка</p>
+          </div>
+
+          <div
+            class="bg-gradient-to-br from-red-400 to-red-600 rounded-2xl p-6 text-white text-center card-hover"
+          >
+            <div class="text-5xl mb-4">🍅</div>
+            <h3 class="text-xl font-bold mb-2">Овощи</h3>
+            <p class="text-red-100">Помидоры, огурцы, перец</p>
+          </div>
+
+          <div
+            class="bg-gradient-to-br from-orange-400 to-orange-600 rounded-2xl p-6 text-white text-center card-hover"
+          >
+            <div class="text-5xl mb-4">🥕</div>
+            <h3 class="text-xl font-bold mb-2">Корнеплоды</h3>
+            <p class="text-orange-100">Морковь, свекла, картофель</p>
+          </div>
+
+          <div
+            class="bg-gradient-to-br from-blue-400 to-blue-600 rounded-2xl p-6 text-white text-center card-hover"
+          >
+            <div class="text-5xl mb-4">🥛</div>
+            <h3 class="text-xl font-bold mb-2">Молочное</h3>
+            <p class="text-blue-100">Молоко, творог, сметана</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="bg-green-600 py-20">
+      <div class="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
+        <h2 class="text-4xl font-bold text-white mb-6">
+          Готовы попробовать настоящий вкус?
+        </h2>
+        <p class="text-xl text-green-100 mb-8">
+          Оформите первый заказ и получите скидку 15% на все продукты
+        </p>
+        <button
+          class="bg-white text-green-600 px-10 py-4 rounded-full font-bold text-xl hover:bg-green-50 transition-colors pulse-green"
+        >
+          Сделать заказ сейчас
+        </button>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-4 gap-8">
+          <div>
+            <div class="flex items-center space-x-2 mb-4">
+              <div
+                class="w-8 h-8 bg-green-500 rounded-full flex items-center justify-center"
+              >
+                <span class="text-white">🌱</span>
+              </div>
+              <h3 class="text-xl font-bold">Farm2Home</h3>
+            </div>
+            <p class="text-gray-400">
+              Свежие фермерские продукты с доставкой по всему городу
+            </p>
+          </div>
+
+          <div>
+            <h4 class="font-bold mb-4">Продукты</h4>
+            <ul class="space-y-2 text-gray-400">
+              <li>
+                <a href="#" class="hover:text-green-400 transition-colors"
+                  >Овощи</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:text-green-400 transition-colors"
+                  >Фрукты</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:text-green-400 transition-colors"
+                  >Молочные</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:text-green-400 transition-colors"
+                  >Зелень</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 class="font-bold mb-4">Компания</h4>
+            <ul class="space-y-2 text-gray-400">
+              <li>
+                <a href="#" class="hover:text-green-400 transition-colors"
+                  >О нас</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:text-green-400 transition-colors"
+                  >Доставка</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:text-green-400 transition-colors"
+                  >Оплата</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:text-green-400 transition-colors"
+                  >Контакты</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 class="font-bold mb-4">Контакты</h4>
+            <div class="space-y-2 text-gray-400">
+              <p>📞 +7 700 543 98 80</p>
+              <p>📧 damir-aldiyarovich@mail.ru</p>
+              <p>📍 г. Караганда</p>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400"
+        >
+          <p>&copy; 2024 Farm2Home. Все права защищены.</p>
+        </div>
+      </div>
+    </footer>
+    <script>
+      (function () {
+        function c() {
+          var b = a.contentDocument || a.contentWindow.document;
+          if (b) {
+            var d = b.createElement("script");
+            d.innerHTML =
+              "window.__CF$cv$params={r:'98d72986c6025020',t:'MTc2MDI3ODAzMi4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";
+            b.getElementsByTagName("head")[0].appendChild(d);
+          }
+        }
+        if (document.body) {
+          var a = document.createElement("iframe");
+          a.height = 1;
+          a.width = 1;
+          a.style.position = "absolute";
+          a.style.top = 0;
+          a.style.left = 0;
+          a.style.border = "none";
+          a.style.visibility = "hidden";
+          document.body.appendChild(a);
+          if ("loading" !== document.readyState) c();
+          else if (window.addEventListener)
+            document.addEventListener("DOMContentLoaded", c);
+          else {
+            var e = document.onreadystatechange || function () {};
+            document.onreadystatechange = function (b) {
+              e(b);
+              "loading" !== document.readyState &&
+                ((document.onreadystatechange = e), c());
+            };
+          }
+        }
+      })();
+    </script>
+  </body>
+</html>
